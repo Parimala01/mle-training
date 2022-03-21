@@ -1,7 +1,8 @@
 import os
 import tarfile
 
-from six.moves import urllib
+from six import urllib
+
 
 import matplotlib as mpl  # noqa
 import matplotlib.pyplot as plt  # noqa
