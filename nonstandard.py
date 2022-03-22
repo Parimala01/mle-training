@@ -1,13 +1,12 @@
 import os
 import tarfile
 
-from six.moves import urllib
-
 import matplotlib as mpl  # noqa
 import matplotlib.pyplot as plt  # noqa
 import numpy as np
 import pandas as pd
 from scipy.stats import randint
+from six import urllib
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
