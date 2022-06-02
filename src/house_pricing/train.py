@@ -14,7 +14,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import GridSearchCV
 from sklearn.tree import DecisionTreeRegressor
 
-from housing_price.logger import configure_logger
+from house_pricing.logger import configure_logger
 
 
 def parse_args() -> Namespace:

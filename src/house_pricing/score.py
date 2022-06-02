@@ -13,7 +13,7 @@ import pandas as pd
 import sklearn
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-from housing_price.logger import configure_logger
+from house_pricing.logger import configure_logger
 
 
 def parse_args() -> Namespace:

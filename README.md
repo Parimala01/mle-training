@@ -7,7 +7,8 @@ The following techniques have been used:
  - Linear regression
  - Decision Tree
  - Random Forest
-
+## To install the package
+use - pip install Housing-Price-Prediction==0.4
 ## Steps performed
  - We prepare and clean the data. We check and impute for missing values.
  - Features are generated and the variables are checked for correlation.
